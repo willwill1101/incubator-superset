@@ -34,7 +34,7 @@ const parsedArgs = require('minimist')(process.argv.slice(2));
 // input dir
 const APP_DIR = path.resolve(__dirname, './');
 // output dir
-const BUILD_DIR = path.resolve(__dirname, './dist');
+const BUILD_DIR = path.resolve(__dirname, '../static/assets/dist/');
 
 const {
   mode = 'development',
